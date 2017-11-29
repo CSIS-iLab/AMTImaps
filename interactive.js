@@ -24,7 +24,8 @@ map.addControl(nav, 'top-left');
 $("#tab").click(function() {
     $('.slide').toggleClass('slide-hide');
     $('.fa').toggleClass('fa-angle-double-up');
-    $('.fa').toggleClass('fa-angle-double-down')
+    $('.fa').toggleClass('fa-angle-double-down');
+    $('.flatten').toggleClass('flatten-hide');
 });
 
 
