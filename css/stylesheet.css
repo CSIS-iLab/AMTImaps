@@ -1,7 +1,7 @@
 body{ margin:0; padding:0; }
 #map{ position:absolute; top:0; bottom:0; width:100%;}
-.tabContainer{position: absolute;bottom: 0;right: 0; width: 280px; height: 397.5px; overflow: hidden;}
-.choices{position: absolute;bottom: 0;right: 0; width: 280px; height: 397.5px; text-align: right;}
+.tabContainer{position: absolute;bottom: 0;right: 0; width: 280px; height: 400px; overflow: hidden;}
+.choices{position: absolute;bottom: 0;right: 0; width: 280px; height: 400px; text-align: right;}
 .mapboxgl-ctrl.mapboxgl-ctrl-attrib{
   display: none;
 }
@@ -50,7 +50,7 @@ body{ margin:0; padding:0; }
   transition: all .5s ease;
 }
 .slide-hide{
-  bottom: -378px;
+  bottom: -380px;
 }
 
 span{
