@@ -1,0 +1,119 @@
+body{ margin:0; padding:0; }
+#map{ position:absolute; top:0; bottom:0; width:100%;}
+.tabContainer{position: absolute;bottom: 0;right: 0; width: 280px; height: 400px; overflow: hidden;}
+.choices{position: absolute;bottom: 0;right: 0; width: 280px; height: 400px; text-align: right;}
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib{
+  display: none;
+}
+#tab{
+  position: relative;
+  right: 90px;
+  bottom: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #FFFFFF;
+  border-left: 20px solid transparent;
+  z-index: 999;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 400;
+  color: #023850;
+}
+#tab:hover{
+  color: #1BB19E;
+}
+#menu{
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 10px 10px 31px 10px;
+  text-align: left;
+}
+
+.flatten{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.flatten-hide{
+    height: 20px;
+}
+
+.slide{
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.slide-hide{
+  bottom: -380px;
+}
+
+span{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #023850;
+}
+.inputWrapper{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 400;
+  color: #023850;
+}
+
+.colorKey{
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-radius: 20px;
+  border: black solid .5px;
+}
+
+input[type="button"]{
+  border: 1px solid white;
+  background: #023850;
+  color: white;
+  margin-right: 5px;
+  -webkit-appearance: none;
+}
+
+  input[type="button"]:hover{
+  background: #1BB19E;
+  color: #023850;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+  .lineContainer{
+    width: 60px;
+    display: inline-block;
+    height: 15px;
+    vertical-align: middle;
+    position: relative;
+  }
+
+  .lineLegend{
+    stroke-width:2;
+    stroke:#023850;
+    stroke-opacity: 0.7;
+  }
+
+  .claim{
+    margin-bottom: 10px;
+  }
+  .column{
+    display: inline-block;
+  }
+  .right{
+    padding-left: 10px;
+  }
+  a.mapboxgl-ctrl-logo{
+    display: none;
+  }
