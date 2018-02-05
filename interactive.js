@@ -38,6 +38,13 @@ map.on('style.load', function(){
       toggleCountry(selectedCountry);
     }
   });
+  Array.prototype.map.call(document.getElementsByClassName('line'),
+  function(line){
+    if(!line.checked){
+      var selectedCountry = line.id;
+      toggleLayer(selectedCountry);
+    }
+  });
 });
 
 //Attach event handlers on all Country checkboxes
