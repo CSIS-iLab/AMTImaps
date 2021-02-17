@@ -1,5 +1,5 @@
 # About this map
-This is a map that was designed to address the issues of a [previous iteration](https://amti.csis.org/carto/claims/?u=csis&t=multilayer_claims_copy&v=0d8d4808-33c7-11e6-b50b-0e31c9be1b51).
+This map has been rebuilt[new iteration](https://github.com/CSIS-iLab/amti-viz/tree/master/claims-map).
 
 # How this map works
 
