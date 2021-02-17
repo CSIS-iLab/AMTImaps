@@ -1,5 +1,5 @@
 # About this map
-This map has been rebuilt ([new iteration](https://github.com/CSIS-iLab/amti-viz/tree/master/claims-map)).
+This map has been rebuilt. Find the new iteration [here](https://github.com/CSIS-iLab/amti-viz/tree/master/claims-map).
 
 # How this map works
 
